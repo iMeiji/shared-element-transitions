@@ -44,7 +44,7 @@ public class PicassoFragmentB extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ImageView imageView = (ImageView) view.findViewById(R.id.picasso_fragment_b_image);
+        ImageView imageView = view.findViewById(R.id.picasso_fragment_b_image);
         Picasso.with(getContext())
                 .load(PicassoFragmentA.GIRAFFE_PIC_URL)
                 .fit()

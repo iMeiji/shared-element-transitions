@@ -17,9 +17,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp"
+        android:contentDescription="@string/lion"
         android:scaleType="centerCrop"
         android:src="@drawable/lion"
-        android:contentDescription="@string/lion"
         android:transitionName="@string/simple_activity_transition"
         tools:ignore="UnusedAttribute" />
 
@@ -30,5 +30,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="19dp"
-        android:text="@string/lion" />
+        android:text="@string/lion"
+        android:transitionName="bt"/>
 </RelativeLayout>

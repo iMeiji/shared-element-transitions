@@ -11,9 +11,9 @@
         android:id="@+id/simple_activity_b_image"
         android:layout_width="match_parent"
         android:layout_height="250dp"
+        android:contentDescription="@string/lion"
         android:scaleType="centerCrop"
         android:src="@drawable/lion"
-        android:contentDescription="@string/lion"
         android:transitionName="@string/simple_activity_transition"
         tools:ignore="UnusedAttribute" />
 
@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp"
-        android:text="@string/lion_blurb" />
+        android:text="@string/lion_blurb"
+        android:transitionName="bt"/>
 
 </LinearLayout>
